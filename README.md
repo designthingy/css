@@ -160,12 +160,14 @@ function ListingCard() {
 /* ListingCard.css */
 .ListingCard { }
 .ListingCard--featured { }
+.ListingCard-header { }
 .ListingCard__title { }
 .ListingCard__content { }
 ```
 
   * `.ListingCard` is the “block” and represents the higher-level component
   * `.ListingCard__title` is an “element” and represents a descendant of `.ListingCard` that helps compose the block as a whole.
+  * `.ListingCard-header`  is a “component” and represents a descendant of `.ListingCard` that helps compose the block as a whole.
   * `.ListingCard--featured` is a “modifier” and represents a different state or variation on the `.ListingCard` block.
 
 ### ID selectors
